@@ -123,6 +123,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                           const SizedBox(height: 24),
                           ElevatedButton(
                             style: ElevatedButton.styleFrom(
+                              // TODO interesting
                               minimumSize: const Size.fromHeight(56),
                             ),
                             onPressed: () {
@@ -140,14 +141,18 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                           ),
                         ],
                       ),
-                      const Align(
+                      Align(
                         alignment: Alignment.bottomCenter,
-                        child: Text(
-                          'Criar conta',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.w500,
-                            fontSize: 16,
+                        child: InkWell(
+                          onTap: () => Navigator.of(context)
+                              .pushNamed('/auth/register/user'),
+                          child: const Text(
+                            'Criar conta',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w500,
+                              fontSize: 16,
+                            ),
                           ),
                         ),
                       ),
