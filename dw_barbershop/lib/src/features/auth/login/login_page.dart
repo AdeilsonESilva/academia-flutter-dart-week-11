@@ -93,6 +93,7 @@ class _LoginPageState extends ConsumerState<LoginPage> {
                           ),
                           const SizedBox(height: 24),
                           TextFormField(
+                            obscureText: true,
                             onTapOutside: (event) => context.unfocus(),
                             validator: Validatorless.multiple([
                               Validatorless.required('Senha obrigatória'),
