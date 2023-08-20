@@ -1,1 +1,172 @@
-{"users":[{"id":5,"name":"Adeilson Silva","email":"adeilson@gmail.com","password":"123123","profile":"ADM","work_days":["Seg","Qui"],"work_hours":[6,7,14]},{"id":14,"name":"teste8","email":"teste8@gmail.com","password":"123123","profile":"ADM"},{"id":15,"name":"Adeilson 1 employee","email":"adeilsonemp@gmail.com","password":"123123","profile":"EMPLOYEE","barbershop_id":2,"work_days":["Seg","Ter"],"work_hours":[6,7,8]},{"id":16,"name":"colab 1","email":"colab1@gmail.com","password":"123123","barbershop_id":2,"profile":"EMPLOYEE","work_days":["Seg"],"work_hours":[8,9]},{"id":17,"name":"colab 2","email":"colab2@gmail.com","password":"123123","barbershop_id":2,"profile":"EMPLOYEE","work_days":["Seg"],"work_hours":[9,13]}],"adm_users":[],"barbershop":[{"id":2,"user_id":"5","name":"Barbearia X","email":"barbeariax@gmail.com","opening_days":["Seg","Qua","Sab"],"opening_hours":[6,7,8,9,18,19,20,12,13]},{"id":6,"user_id":"14","name":"bla","email":"bla@gmail.com","opening_days":["Seg","Ter"],"opening_hours":[7,6,8,9,10]}],"schedules":[{"id":1,"barbershop_id":2,"user_id":5,"client_name":"teste","date":"2023-08-09T00:00:00.000Z","time":8},{"id":2,"barbershop_id":2,"user_id":5,"customer_name":"ade","date":"2023-08-24T00:00:00.000Z","time":7}]}
+{
+    "users": [
+        {
+            "id": 5,
+            "name": "Adeilson Silva",
+            "email": "adeilson@gmail.com",
+            "password": "123123",
+            "profile": "ADM",
+            "work_days": [
+                "Seg",
+                "Qua",
+                "Sab",
+                "Dom"
+            ],
+            "work_hours": [
+                6,
+                7,
+                8,
+                9,
+                12,
+                13
+            ]
+        },
+        {
+            "id": 14,
+            "name": "teste8",
+            "email": "teste8@gmail.com",
+            "password": "123123",
+            "profile": "ADM"
+        },
+        {
+            "id": 15,
+            "name": "Adeilson 1 employee",
+            "email": "adeilsonemp@gmail.com",
+            "password": "123123",
+            "profile": "EMPLOYEE",
+            "barbershop_id": 2,
+            "work_days": [
+                "Seg",
+                "Ter"
+            ],
+            "work_hours": [
+                6,
+                7,
+                8
+            ]
+        },
+        {
+            "id": 16,
+            "name": "colab 1",
+            "email": "colab1@gmail.com",
+            "password": "123123",
+            "barbershop_id": 2,
+            "profile": "EMPLOYEE",
+            "work_days": [
+                "Seg"
+            ],
+            "work_hours": [
+                8,
+                9
+            ]
+        },
+        {
+            "id": 17,
+            "name": "colab 2",
+            "email": "colab2@gmail.com",
+            "password": "123123",
+            "barbershop_id": 2,
+            "profile": "EMPLOYEE",
+            "work_days": [
+                "Seg"
+            ],
+            "work_hours": [
+                9,
+                13
+            ]
+        }
+    ],
+    "adm_users": [],
+    "barbershop": [
+        {
+            "id": 2,
+            "user_id": "5",
+            "name": "Barbearia X",
+            "email": "barbeariax@gmail.com",
+            "opening_days": [
+                "Seg",
+                "Qua",
+                "Sab",
+                "Dom"
+            ],
+            "opening_hours": [
+                6,
+                7,
+                8,
+                9,
+                18,
+                19,
+                20,
+                12,
+                13
+            ]
+        },
+        {
+            "id": 6,
+            "user_id": "14",
+            "name": "bla",
+            "email": "bla@gmail.com",
+            "opening_days": [
+                "Seg",
+                "Ter"
+            ],
+            "opening_hours": [
+                7,
+                6,
+                8,
+                9,
+                10
+            ]
+        }
+    ],
+    "schedules": [
+        {
+            "id": 1,
+            "barbershop_id": 2,
+            "user_id": 5,
+            "customer_name": "aa",
+            "date": "2023-08-20T00:00:00.000Z",
+            "time": 12
+        },
+        {
+            "id": 2,
+            "barbershop_id": 2,
+            "user_id": 5,
+            "customer_name": "vb",
+            "date": "2023-08-21T00:00:00.000Z",
+            "time": 12
+        },
+        {
+            "id": 3,
+            "barbershop_id": 2,
+            "user_id": 15,
+            "customer_name": "hj",
+            "date": "2023-08-21T00:00:00.000Z",
+            "time": 8
+        },
+        {
+            "id": 4,
+            "barbershop_id": 2,
+            "user_id": 15,
+            "customer_name": "aa",
+            "date": "2023-08-22T00:00:00.000Z",
+            "time": 8
+        },
+        {
+            "id": 5,
+            "barbershop_id": 2,
+            "user_id": 15,
+            "customer_name": "dd",
+            "date": "2023-08-22T00:00:00.000Z",
+            "time": 7
+        },
+        {
+            "id": 5,
+            "barbershop_id": 2,
+            "user_id": 15,
+            "customer_name": "dd",
+            "date": "2023-08-20T00:00:00.000Z",
+            "time": 7
+        }
+    ]
+}
