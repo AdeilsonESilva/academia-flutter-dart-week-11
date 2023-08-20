@@ -11,6 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # TODO incluído por causa do intl no flutter 3.10.6
+  flutter_localizations:
+    sdk: flutter
 
   cupertino_icons: ^1.0.2
   flutter_riverpod: ^2.3.6
@@ -21,6 +24,11 @@ dependencies:
   shared_preferences: ^2.2.0
   validatorless: ^1.2.3
   top_snackbar_flutter: ^3.1.0
+  table_calendar: ^3.0.9
+  # TODO não precisei forçar a dependência
+  intl: ^0.18.1
+  # TODO package pago
+  syncfusion_flutter_calendar: ^22.2.9
 
 dev_dependencies:
   flutter_test:
